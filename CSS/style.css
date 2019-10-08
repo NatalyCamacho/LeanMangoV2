@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Berlin', Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 0.09em;
+}
+input {
+  border: 1px solid #f9bd60 !important;
+  padding: 1.5em !important;
+}
+.bg-primary {
+  background-color: #f9bd60 !important;
+}
+.bg-dark {
+  background-color: #28313b !important;
+}
+.btn-primary {
+  background-color: #f9bd60 !important;
+  border-color: #f9bd60;
+}
+#main-header {
+  background-image: linear-gradient(#28313b, black);
+}
+.quote {
+  display: none;
+}
+.lead-text {
+  font-size: 26px;
+}
+.header-text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.signup {
+  color: #2c3e50;
+  border-radius: 8px;
+  max-width: 488px;
+}
+.form-lead {
+  font-size: 14px;
+  background: -webkit-linear-gradient(#ff6337, #f9bd60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.btn-form {
+  width: 220px;
+  height: 58px;
+  font-size: 20px;
+}
+.components {
+  padding: 1em;
+  font-size: 13px;
+}
+.component-m1 {
+  margin-bottom: 2.26em;
+}
+.component-m2 {
+  margin-bottom: 1.98em;
+}
+.component-hr {
+  background-image: linear-gradient(to right, #ff6337, #f9bd60);
+  height: 2px;
+  border: none;
+}
+.plans-disc {
+  font-size: 40px;
+  color: #ffa05e;
+}
+.card-size {
+  max-width: 270px;
+}
+.card-size2 {
+  max-width: 297px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    text-align: center !important;
+  }
+  .quote {
+    display: inline !important;
+    padding: 1em;
+  }
+  .card-size {
+    max-width: none;
+  }
+  .card-size2 {
+    max-width: none;
+  }
+}
