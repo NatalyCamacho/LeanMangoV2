@@ -83,7 +83,24 @@ input {
 .card-size2 {
   max-width: 297px;
 }
-
+.car-img {
+  height: 400px !important;
+  object-fit: cover;
+}
+#testimonies {
+  background: url('../img/TestimoniesBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-size3 {
+  height: 490px;
+}
+.testimonies-img {
+  width: 150px;
+}
+.testimonies-txt {
+  font-size: 14px;
+}
 @media only screen and (max-width: 600px) {
   .sm-h1 {
     text-align: center !important;
