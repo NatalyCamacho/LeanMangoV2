@@ -82,7 +82,7 @@ input {
 }
 
 @media only screen and (max-width: 600px) {
-  h1 {
+  .sm-h1 {
     text-align: center !important;
   }
   .quote {
