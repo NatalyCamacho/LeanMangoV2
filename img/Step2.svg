@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Step2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="25" cy="25" r="25"></circle>
+        <filter x="-14.0%" y="-10.0%" width="128.0%" height="128.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.796078431   0 0 0 0 0.796078431   0 0 0 0 0.796078431  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Proposal-3" transform="translate(-836.000000, -2710.000000)">
+            <g id="Projects" transform="translate(240.000000, 2385.000000)">
+                <g id="Step-2" transform="translate(600.000000, 327.000000)">
+                    <g id="Step2">
+                        <g id="Oval-Copy">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#F9BD60" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <text id="2" font-family="BerlinBold, Berlin Bold" font-size="24" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="20" y="33.9166667">2</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

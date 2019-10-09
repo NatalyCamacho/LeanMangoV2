@@ -11,7 +11,8 @@ body {
   box-sizing: border-box;
   letter-spacing: 0.09em;
 }
-input {
+input,
+textarea {
   border: 1px solid #f9bd60 !important;
   padding: 1.5em !important;
 }
@@ -52,7 +53,7 @@ input {
 }
 .btn-form {
   width: 220px;
-  height: 58px;
+  height: 54px;
   font-size: 20px;
 }
 .components {
@@ -100,6 +101,19 @@ input {
 }
 .testimonies-txt {
   font-size: 14px;
+}
+
+#contact {
+  background: url('../img/contact-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -1em;
+}
+.card-size4 {
+  max-width: 840px;
+}
+.card-title2 {
+  max-width: 600px;
 }
 @media only screen and (max-width: 600px) {
   .sm-h1 {
