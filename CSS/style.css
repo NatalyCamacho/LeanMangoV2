@@ -56,6 +56,9 @@ textarea {
   height: 54px;
   font-size: 20px;
 }
+#works {
+  background-image: linear-gradient(#ebeff4, #f4f5f5);
+}
 .components {
   padding: 1em;
   font-size: 13px;
@@ -73,6 +76,9 @@ textarea {
 }
 .bg-card {
   background-color: #28313b;
+}
+#plans {
+  background: #f4f5f5;
 }
 .plans-disc {
   font-size: 40px;
@@ -128,5 +134,8 @@ textarea {
   }
   .card-size2 {
     max-width: none;
+  }
+  .card-size3 {
+    height: 500px;
   }
 }
