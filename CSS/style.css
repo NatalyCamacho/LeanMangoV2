@@ -116,7 +116,7 @@ textarea {
   margin-top: -1em;
 }
 .card-size4 {
-  max-width: 840px;
+  width: 840px;
 }
 .card-title2 {
   max-width: 600px;
@@ -138,5 +138,8 @@ textarea {
   }
   .card-size3 {
     height: 510px;
+  }
+  .card-size4 {
+    max-width: none !important;
   }
 }
