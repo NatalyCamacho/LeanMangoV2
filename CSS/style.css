@@ -85,10 +85,10 @@ textarea {
   color: #ffa05e;
 }
 .card-size {
-  max-width: 270px;
+  max-width: 280px;
 }
 .card-size2 {
-  max-width: 297px;
+  max-width: 300px;
 }
 .car-img {
   height: 400px !important;
@@ -121,7 +121,8 @@ textarea {
 .card-title2 {
   max-width: 600px;
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 745px) {
   .sm-h1 {
     text-align: center !important;
   }
@@ -130,10 +131,10 @@ textarea {
     padding: 1em;
   }
   .card-size {
-    max-width: none;
+    max-width: none !important;
   }
   .card-size2 {
-    max-width: none;
+    max-width: none !important;
   }
   .card-size3 {
     height: 510px;
